@@ -4,7 +4,7 @@ Lists resource ranks based on resource refresh rates from a 6.20 savegame with a
 
 Rather than using an index based on the raw numbers which can be hard to interpret due to the large variation, the ranks for a resource X are generated as follows:
 1. Take all sectors that have resource X (respawning)
-2. Order the list from best to worst for resource X, based on the aggregated <max>/<time> value of all resource areas in the sector
+2. Order the list from best to worst for resource X, based on the aggregated {max}/{time} value of all resource areas in the sector
 3. The top 10% of the list gets rank 1, the next 10% gets rank 2, etc, all the way to the bottom 10% which gets rank 10
 
 A blank value means the sector does not have that specific respawning resource.
